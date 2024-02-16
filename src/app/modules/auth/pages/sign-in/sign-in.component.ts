@@ -48,7 +48,7 @@ export class SignInComponent implements OnInit {
     if (this.form.invalid) {
       return;
     }
-
-    this._router.navigate(['/']);
+    
+    this._router.navigate(['/inicio']);
   }
 }

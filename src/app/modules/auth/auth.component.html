@@ -1,9 +1,9 @@
 <div class="flex h-screen w-screen">
   <div class="auth-bg hidden flex-1 items-center justify-center bg-primary-500 bg-cover lg:flex">
     <div class="max-w-2xl space-y-4 p-8 text-center text-white">
-      <img src="./assets/images/auth-screens.png" alt="LogoStoreApp" />
-      <h1 class="text-4xl font-bold">"Rapido, Eficiente & Productivo"</h1>
-      <p class="text-xs font-light">
+      <!-- <img src="./assets/Imagenes/logo.png" alt="LogoStoreApp" /> -->
+      <h1 class="text-4xl font-bold text-black">"Rapido, Eficiente & Productivo"</h1>
+      <p class="text-xs font-normal text-black">
         StoreApp es una aplicación web con la finalidad de optimizar tu <span class="cursor-pointer font-medium text-yellow-400">punto de venta</span>
         , nosotros nos encargamos de adaptar la aplicación a las necesidades de tu negocio. Inicia ahora y comienza a optimizar
         tu negocio.
@@ -12,12 +12,11 @@
   </div>
   <div class="flex flex-1 items-center justify-center bg-white dark:bg-night-700">
     <div class="max-w-md overflow-y-auto px-4 sm:w-[500px]">
-      <!-- logo -->
-      <div class="flex items-center justify-center">
-        <a class="rounded bg-primary-500 p-2">
-          <svg-icon src="assets/icons/logo.svg" [svgClass]="'h-5 w-5'"> </svg-icon>
+       <!-- logo -->
+       <div class="flex items-center justify-center">
+        <a class="rounded">
+          <img src="assets/Imagenes/logo.png" style="width: 100px;"/> 
         </a>
-        <b class="text-md pl-3 font-bold text-gray-700 dark:text-white"> Angular Tailwind </b>
       </div>
       <!-- Route -->
       <router-outlet></router-outlet>
