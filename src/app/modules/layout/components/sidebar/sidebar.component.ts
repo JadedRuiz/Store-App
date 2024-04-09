@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { MenuService } from '../../services/menu.service';
+import { MenuService } from '../../../../core/services/menu.service';
 import packageJson from '../../../../../../package.json';
 import { SubMenuItem } from '../../../../core/models/menu.model';
 import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';

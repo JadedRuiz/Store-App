@@ -11,7 +11,7 @@ export class Menu {
           label: 'Estadisticas',
           route: '/dashboard',
           children: [
-            { label: 'Mi tienda', route: '/dashboard/nfts' },
+            { label: 'Mi tienda', route: '/mi-tienda/inicio' },
             { label: 'Mis vendedores', route: '/dashboard/podcast' },
           ],
         },
@@ -46,7 +46,7 @@ export class Menu {
         {
           icon: 'assets/icons/heroicons/outline/users.svg',
           label: 'Productos',
-          route: '/users',
+          route: '/mi-tienda/catalogo/product',
         },
       ],
     },

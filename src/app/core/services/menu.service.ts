@@ -1,8 +1,8 @@
 import { Injectable, OnDestroy, signal } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { Menu } from '../../../core/constants/menu';
-import { MenuItem, SubMenuItem } from '../../../core/models/menu.model'
+import { Menu } from '../constants/menu';
+import { MenuItem, SubMenuItem } from '../models/menu.model'
 
 @Injectable({
   providedIn: 'root',

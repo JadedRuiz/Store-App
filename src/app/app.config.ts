@@ -7,8 +7,9 @@ import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { errorHandlerInterceptor } from './core/interceptor/error-handler.interceptor';
 import { AppRoutingModule } from './app-routing.module';
 import { authInterceptor } from './core/interceptor/auth.interceptor';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes), provideClientHydration(), provideHttpClient(withInterceptors([authInterceptor, errorHandlerInterceptor])), 
-  importProvidersFrom(BrowserModule, AppRoutingModule)]
+  importProvidersFrom(BrowserModule, AppRoutingModule), provideAnimationsAsync()]
 };

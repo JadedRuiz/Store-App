@@ -4,7 +4,9 @@ module.exports = {
   prefix: '',
   mode: 'jit',
   important: false,
-  content: ['./src/**/*.{html,ts}'],
+  content: [
+    './src/**/*.{html,ts}'
+  ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
@@ -103,6 +105,6 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
     require('tailwind-scrollbar'),
-    'prettier-plugin-tailwindcss',
+    'prettier-plugin-tailwindcss'
   ],
 };

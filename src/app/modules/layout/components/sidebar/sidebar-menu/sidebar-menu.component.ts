@@ -2,7 +2,7 @@ import { CommonModule, NgClass, NgFor, NgIf, NgTemplateOutlet } from '@angular/c
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { SidebarSubmenuComponent } from '../sidebar-submenu/sidebar-submenu.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { MenuService } from '../../../services/menu.service';
+import { MenuService } from '../../../../../core/services/menu.service';
 import { SubMenuItem } from '../../../../../core/models/menu.model';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 
